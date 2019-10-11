@@ -1,0 +1,22 @@
+<%= form_with(model: t_weet, local: true) do |form| %>
+  <% if t_weet.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(t_weet.errors.count, "error") %> prohibited this t_weet from being saved:</h2>
+
+      <ul>
+      <% t_weet.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :Tweet %>
+    <%= form.text_area :Tweet, id: :t_weet_Tweet %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>
