@@ -1,27 +1,14 @@
-<p id="notice"><%= notice %></p>
+<section class="section">
+  <div class="container">
+    <div class="columns">
+    	<% if user_signed_in? %>
+    		<%= render 'profile' %>
+    	<% else %>
+       <%= render 'trends' %>
+      <% end %>
 
-<h1>T Weets</h1>
-
-<table>
-  <thead>
-    <tr>
-      <th>Tweet</th>
-      <th colspan="3"></th>
-    </tr>
-  </thead>
-
-  <tbody>
-    <% @t_weets.each do |t_weet| %>
-      <tr>
-        <td><%= t_weet.Tweet %></td>
-        <td><%= link_to 'Show', t_weet %></td>
-        <td><%= link_to 'Edit', edit_t_weet_path(t_weet) %></td>
-        <td><%= link_to 'Destroy', t_weet, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
-    <% end %>
-  </tbody>
-</table>
-
-<br>
-
-<%= link_to 'New T Weet', new_t_weet_path %>
+       <%= render 'feed' %>
+       <%= render 'who-to-follow' %>
+    </div>
+  </div>
+</section>

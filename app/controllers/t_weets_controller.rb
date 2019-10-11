@@ -4,7 +4,8 @@ class TWeetsController < ApplicationController
   # GET /t_weets
   # GET /t_weets.json
   def index
-    @t_weets = TWeet.all
+    @t_weets = TWeet.all.order("created_at DESC")
+    @t_weet = TWeet.new
   end
 
   # GET /t_weets/1
@@ -42,7 +43,7 @@ class TWeetsController < ApplicationController
   def update
     respond_to do |format|
       if @t_weet.update(t_weet_params)
-        format.html { redirect_to @t_weet, notice: 'T weet was successfully updated.' }
+        format.html { redirect_to root_path, notice: 'T weet was successfully updated.' }
         format.json { render :show, status: :ok, location: @t_weet }
       else
         format.html { render :edit }
