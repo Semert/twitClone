@@ -1,7 +1,7 @@
 # README
 
 Welcome!!
- In this project called Twitter Clon =  We can create, read, update, and destroy Tweets. Combined with this gem we can authenticate users    who want to author Tweeets. A user's Tweeets are then also tied to their account. The end result is a public facing site with a stream of  tweets from different users. Users that have and account can login to create their own Tweets to add to the public stream.
+ In this project called Twitter Clon =  We can create, read, update, and destroy Tweets. Combined with this gem we can authenticate users who want to author Tweets. A user's Tweeets are then also tied to their account. The end result is a public facing site with a stream of  tweets from different users. Users that have and account can login to create their own Tweets to add to the public stream.
 
 * Ruby version => ruby 2.6.4p104 (2019-08-28 revision 67798) [x64-mingw32]
 
