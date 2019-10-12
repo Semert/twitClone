@@ -5,7 +5,7 @@ Welcome!!
 
 * Ruby version => ruby 2.6.4p104 (2019-08-28 revision 67798) [x64-mingw32]
 
-# Ruby gems used in this build
+## Ruby gems used in this build
  
  <ul>
     <li> Bulma - for easy CSS. Feel free to roll your own styles and/or use a different framework. </li>
@@ -26,4 +26,4 @@ Welcome!!
 * How to run the test suite =>
   rails s
 
-For more information, Do not hesitate to reach me :)
+ For more information, Do not hesitate to reach me :)
