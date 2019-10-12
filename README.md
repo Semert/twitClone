@@ -15,15 +15,15 @@ Welcome!!
     <li> Gravatar_image_tag - Integrated image tag which spits out gravatars. </li>
   </ul>
   
-* Configuration
+* Configuration =>
   bundle install
 
-* Database creation
+* Database creation =>
   rake db:create
+
+* Database initialization =>
   rake db:migrate
 
-* Database initialization
-
-* How to run the test suite
+* How to run the test suite =>
   rails s
 
