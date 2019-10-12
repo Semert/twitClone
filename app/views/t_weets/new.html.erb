@@ -1,5 +1,22 @@
-<h1>New T Weet</h1>
 
-<%= render 'form', t_weet: @t_weet %>
+<div class="section">
+	<div class="container">
+		<div class="columns is-centered">
+			<div class="column is-half">
+				<h1 class="title">Create a new Tweet</h1>
+					<%= render 'form', t_weet: @t_weet %>
+			</div>
+		</div>
+	</div>
+</div>
 
-<%= link_to 'Back', t_weets_path %>
+<nav class="navbar is-fixed-bottom">
+	<div class="navbar-menu">
+		<div class="navbar-item">
+			<div class="field is-grouped">
+				<p class="control">
+					<%= link_to 'Cancel', t_weets_path, class: "button is-dark" %>
+				</p>
+		</div>
+	</div>
+</nav>

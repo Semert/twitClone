@@ -1,5 +1,6 @@
 class TWeetsController < ApplicationController
   before_action :set_t_weet, only: [:show, :edit, :update, :destroy]
+  before_action :authenticate_user!, except: [:index, :show]
 
   # GET /t_weets
   # GET /t_weets.json
@@ -15,7 +16,7 @@ class TWeetsController < ApplicationController
 
   # GET /t_weets/new
   def new
-    @t_weet = TWeet.new
+    @t_weet = current_user.t_weets.build
   end
 
   # GET /t_weets/1/edit
@@ -25,7 +26,7 @@ class TWeetsController < ApplicationController
   # POST /t_weets
   # POST /t_weets.json
   def create
-    @t_weet = TWeet.new(t_weet_params)
+    @t_weet = current_user.t_weets.build(t_weet_params)
 
     respond_to do |format|
       if @t_weet.save
