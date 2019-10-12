@@ -8,7 +8,6 @@ Welcome!!
 # Ruby gems used in this build
  
  <ul>
-  <li> </li>
     <li> Bulma - for easy CSS. Feel free to roll your own styles and/or use a different framework. </li>
     <li> Simple Form - For simple forms! </li>
     <li> Devise - Effortless user roles and authentication </li>
