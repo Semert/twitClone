@@ -27,3 +27,20 @@ Welcome!!
   rails s
 
  For more information, Do not hesitate to reach me :)
+## Sign Up
+ <img width="700" alt="Adsız" src="https://user-images.githubusercontent.com/44974863/66702119-cd398480-ed0c-11e9-84c8-d31ed92cf81f.png">
+ 
+## Main Page (without tweets)
+  <img width="700" alt="Adsız1" src="https://user-images.githubusercontent.com/44974863/66702137-f4905180-ed0c-11e9-94bc-445e6f1c7bea.png">
+  
+ ## Log in
+  <img width="700" alt="Adsız2" src="https://user-images.githubusercontent.com/44974863/66702155-2d302b00-ed0d-11e9-8c9d-754cfd2e3522.png">
+  
+ ## Invalid password or email
+<img width="700" alt="Adsız3" src="https://user-images.githubusercontent.com/44974863/66702156-328d7580-ed0d-11e9-8b30-0fe024fe7a5f.png">
+
+## Forgot Password
+<img width="700" alt="Adsız4" src="https://user-images.githubusercontent.com/44974863/66702157-34efcf80-ed0d-11e9-8db2-c2beccd34d5a.png">
+
+
+
